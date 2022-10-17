@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon</title>
+        <style>
+            .body{
+                overflow-x: hidden;
+            }
+            .navbar1{
+                background-color: rgb(17, 17, 17);
+                height: 55px;
+                width: 1902px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                right: 0px;
+            }
+            
+            .logo{
+                height:10px;
+                width:10px;
+                display: flex;
+            }
+            .location{
+                display: flex;
+                
+            }
+            .address{
+                padding-bottom: 25px;
+            }
+            .searchbar{
+                display: flex;
+                background-color: white;
+                margin-bottom:10px ;
+                margin-top: 10px;
+                justify-content: center;
+
+            }
+            .all{
+                background-color:rgb(236, 232, 232);
+            }
+            .flex{
+                display: flex;
+                align-items: center;
+
+            }
+            .searchsection input{
+                width: 100%;
+                height: 82%;
+
+            }
+            .search-logo{
+                width:36px;
+                border-bottom-right-radius: 3px;
+                border-top-right-radius: 20px;
+            }
+            .english{
+                margin-left: 15px;
+                display: flex;
+                color: white;
+                padding-top: 10px;
+            }
+            .hello{
+                display: flex;
+                margin-left:  55px;
+                width: 95px;
+                margin-top: 5px;
+            }
+            .returns{
+                display: flex;
+                margin-left: 70px;
+                width: 100px;
+    
+                padding-bottom: 10px;
+            }
+            .cart{
+                display:flex;
+            }
+            .cart1{
+                padding-right: 28px;    
+
+            }
+            .navbar2{
+                position: absolute;
+                top: 55px;
+                left: 0px;
+                right: 0px;
+                width: 1902px;
+                align-items: center;
+                background-color: #232f3e ;
+                height: 35px;
+            }
+            .menulist{
+                display: flex;
+                width:25px;
+                align-items: center;
+            }
+            .navbar2 p{
+                padding: 20px;
+                font-size:13px;
+                width:25px
+                height:5px;
+            }
+            .col1{
+                position: absolute;
+                top: 88px;
+                left: 0px;
+                border: 0px solid;
+                height: 1215px;
+                width: 200px;
+                background-color: rgba(165, 165, 165, 0.185)
+            }
+            .col2{
+                position: absolute;
+                top: 82px;
+                left: 192px;
+                border:0px solid;
+                height: 1215px;
+                width: 1483px;
+                position: relative;
+            }
+            .col3{
+                position: absolute;
+                left: 1683px;
+                right: 0px;
+                top: 88px;
+                border: 0px solid ;
+                height: 1215px;
+                width: 219px;
+                background-color: rgba(165, 165, 165, 0.185);
+            }
+            .mini-col1{
+                position: absolute;
+                top:300px;
+                left:25px;
+                border: 2px solid white;
+                height: 437px;
+                width: 340px;
+            }
+            .mini-col2{
+                border: 2px solid white;
+                position: absolute;
+                top:300px;
+                left:390px;
+                height: 437px;
+                width: 340px;
+            }
+            .mini-col3{
+                border: 2px solid white;
+                position: absolute;
+                top:300px;
+                left: 755px;
+                height: 437px;
+                width: 340px;
+            }
+            .mini-col4{
+                position: absolute;
+                top:300px;
+                left:1120px;
+                border: 2px solid white;
+                height: 437px;
+                width: 340px;
+            }
+            .small-col1{
+                margin-left: 10px;
+                padding-bottom: 25px;
+                width:145px;
+                padding-top: 10px;
+                padding-left: 25px;
+                height: 100px;
+                background-color: rgb(236, 255, 255);
+            }
+            .small-col2{
+                margin-top: 25px;
+                margin-left: 175px;
+                padding-bottom: 25px;
+                width:120px;
+                padding-top: 10px;
+                padding-left: 35px;
+                height: 100px;
+                top:50px;
+                background-color: rgb(236, 255, 255);
+
+            }
+            .small-col3{
+                margin-left: 10px;
+                padding-bottom: 25px;
+                width:125px;
+                padding-top: 10px;
+                padding-left: 45px;
+                height: 100px;
+                background-color: rgb(236, 255, 255);
+            }
+            .small-col4{
+                margin-top: 25px;
+                margin-left: 175px;
+                padding-bottom: 25px;
+                width:120px;
+                padding-top: 10px;
+                padding-left: 35px;
+                height: 100px;
+                top:185px;
+                background-color: rgb(236, 255, 255);
+            }
+            .mini-cols21{
+                position: absolute;
+                border: 2px solid white;
+                top:757px;
+                left:25px;
+                height: 437px;
+                width: 340px;
+            }
+            .mini-cols22{
+                border: 2px solid white;
+                position: absolute;
+                top:757px;
+                left:390px;
+                height: 437px;
+                width: 340px;
+            }
+            .mini-cols23{
+                border: 2px solid white;
+                position: absolute;
+                top:757px;
+                left: 755px;
+                height: 437px;
+                width: 340px;
+            }
+            .mini-cols24{
+                position: absolute;
+                top:757px;
+                left:1120px;
+                border: 2px solid white;
+                height: 437px;
+                width: 340px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="navbar1" style="display:flex;">
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/R.be7d3f034b36d577b0a89bb98a73f1d0?rik=iCPXgDXbJe1xOg&riu=http%3a%2f%2f1000marcas.net%2fwp-content%2fuploads%2f2019%2f11%2fLogo-Amazon.jpg&ehk=4Sxit5z%2bUBbziau%2fk73cmGjgSote4G4IwgoD0Nv1ATw%3d&risl=&pid=ImgRaw&r=0" style="height:55px; width: 150px; padding-left :  5px;">
+            </div>
+            <div class="location">
+                <div class="location-image">
+                    <img src="https://th.bing.com/th/id/OIP.G2jRcR81cmpROFk9vMw0YgHaHa?w=216&h=216&c=7&r=0&o=5&pid=1.7" style="height:45px; padding-left:120px; ">
+                </div>
+                <div class="address">
+                    <p style="color:white; margin-top:10px; font-size: 12px;">Deliver to <br>India</p>
+                </div>
+            </div>
+            <div class="searchbar"style="margin-top:10px; margin-left:55px;" >
+                <div class="all" style="width: 50px; ">
+                    <h5 style="color:gray; padding-left: 10px; margin-top: 10px;">All ▿</h5>
+                </div>
+                <div class="searchsection">
+                    <input placeholder="Search here" style="width: 1000px;">
+                </div>
+                <div class="search-logo">
+                    <div class="symbol">
+                        <img src="data:image/jpeg;base64,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" style="width:36px; border-top-right-radius: 1px; border-bottom-right-radius: 3px;">
+                    </div>
+                </div>
+            </div> 
+            <div class="Country">
+                <div class="english" style="padding-left:15px">
+                    <p style="font-size:12px;">English<br>▿</p>
+                    <img src="https://www.bing.com/th?id=OIP.CdcmTZIBwzY5PGHWZUTcGQHaFQ&w=296&h=210&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" style="padding-left:2px; width:45px; margin-top: 3px; margin-bottom: 30px;">
+                </div>
+            </div> 
+            <div class="hello">
+                <div class="name">
+                    <p style="color:white;  width:150px; font-size: 12px;">Hello, Pardhu<br><b style="font-size:15px">Account & Lists ▿</b></p>
+                </div>
+            </div>
+            <div class="returns">
+                <p style="color:white;width:55px; font-size: 12px;">Returns <b style="font-size:15px;">& Orders</b></p>
+            </div>   
+            <div class="cart">
+                <img src="https://th.bing.com/th/id/OIP.S1Ttio_txa8ii6VIsSWJZAHaD4?w=345&h=180&c=7&r=0&o=5&pid=1.7" style="padding-left: 30px; margin-right:0px; width:70px; margin-top: 15px; ">
+            </div>      
+            <div class="cart1" style="width: 25px;">
+                <p class="cart1" style="color: white; margin-top:35px; width: 25px;">Cart</p>
+            </div> 
+        </div>
+        <div class="navbar2" style="display:flex">
+            <div class="list">
+                <img src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCAxNzIgMTcyIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBzdHJva2UtbGluZWNhcD0iYnV0dCIgc3Ryb2tlLWxpbmVqb2luPSJtaXRlciIgc3Ryb2tlLW1pdGVybGltaXQ9IjEwIiBzdHJva2UtZGFzaGFycmF5PSIiIHN0cm9rZS1kYXNob2Zmc2V0PSIwIiBmb250LWZhbWlseT0ibm9uZSIgZm9udC13ZWlnaHQ9Im5vbmUiIGZvbnQtc2l6ZT0ibm9uZSIgdGV4dC1hbmNob3I9Im5vbmUiIHN0eWxlPSJtaXgtYmxlbmQtbW9kZTogbm9ybWFsIj48cGF0aCBkPSJNMCwxNzJ2LTE3MmgxNzJ2MTcyeiIgZmlsbD0iIzIzMmYzZSI+PC9wYXRoPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xNC4zMzMzMywzNS44MzMzM3YxNC4zMzMzM2gxNDMuMzMzMzN2LTE0LjMzMzMzek0xNC4zMzMzMyw3OC44MzMzM3YxNC4zMzMzM2gxNDMuMzMzMzN2LTE0LjMzMzMzek0xNC4zMzMzMywxMjEuODMzMzN2MTQuMzMzMzNoMTQzLjMzMzMzdi0xNC4zMzMzM3oiPjwvcGF0aD48L2c+PC9nPjwvc3ZnPg==" style="height:25px; margin-left:25px">
+            </div>
+            <div class="menulist" style="color: white;">
+                <h5 style="padding: 10px;">All</h5>
+                <p style="font-size:13px; width:150px; " >Today'sDeals</h5>
+                <p>BuyAgain</p>
+                <p>CustomerService</p>
+                <p>GiftCards</p>
+                <p>Registry</p>
+                <p>Sell</p>
+            </div>
+        </div>
+        <div class="main-col" style="display: flex;">
+            <div class="col1">
+                
+            </div>
+            <div class="col2" style="background-color:  rgba(165, 165, 165, 0.185);">
+                <img src="https://m.media-amazon.com/images/I/61TD5JLGhIL._SX3000_.jpg" style="width:1483px;">
+                <div class="mini-box" style="border:0px solid ; height:33px;background-color: white; position: absolute; top:247px;width:1444px; margin-left: 20px;"></div>
+                <p style="position:absolute; top:241px; left:263px"> You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. Click here to go to amazon.in</p>
+                <div class="mini-cols" style="display: flex;justify-content: space-evenly; align-items: center; ">
+                    <div class="mini-col1"style="background-color:white;">
+                        <h4 style="font-size:25px;margin-left:15px; margin-top: 15px;">Shop by Category<h4>
+                        <div class="small-col1" style=" border:0px solid ;">
+                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/computer120x._SY85_CB468850970_.jpg">
+                            <p style="font-size: 12px;">Computers & Accessories</p>
+                        </div>
+                        <div class="small-col2" style="border:0px solid ;position: absolute;">
+                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/August/DashboardCard/PS4_120X._SY85_CB438749318_.jpg">
+                            <p style="font-size: 12px;">Video Games</p>
+                        </div>
+                        <div class="small-col3" style="border:0px solid ;">
+                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Baby120X._SY85_CB468850882_.jpg">
+                            <p style="font-size: 12px;text-align: left; ">Baby Accessories</p>
+                        </div>
+                        <div class="small-col4" style="border:0px solid;position: absolute;">
+                            <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/February/Dashboard/Toys120X._SY85_CB468851693_.jpg">
+                            <p style="font-size: 12px;">Toys & Games</p>
+                        </div>
+                        <p style="font-size:16px; color:rgba(39, 170, 127, 0.747); margin-left:15px; margin-top: 60px;">Shop now</p>
+                    </div>
+                    <div class="mini-col2"style="background-color:white;">
+                        <p style="font-size:25px;margin-left:15px; margin-top: 15px; margin-bottom: 20px;"><b>Health & Personal Care</b></p>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2022/February/DashboardCards/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg" style="margin-left: 17px; height:307px; width: 307px;">
+                        <p style="font-size:16px; color:rgba(39, 170, 127, 0.747); margin-left:15px; margin-top: 20px;"><b>Shop now</b></p>
+                    </div>
+                    <div class="mini-col3" style="background-color:white ;">
+                        <p style="font-size:25px;margin-left:15px; margin-top: 15px; margin-bottom: 20px;"><b>Get fit at home</b></p>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/events/GFAH/GWDesktop_SingleImageCard_fitathome_1x._SY304_CB434924743_.jpg" style="margin-left: 17px; height:307px; width: 307px;">
+                        <p style="font-size:16px; color:rgba(39, 170, 127, 0.747); margin-left:15px; margin-top: 20px;"><b>Explore now</b></p>
+                    </div>
+                    <div class="mini-col4" style="background-color: white;">
+                        <p style="font-size:25px;margin-left:15px; margin-top: 15px; margin-bottom: 20px;"><b>Computer & Accessories</b></p>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_PC_1x._SY304_CB431800965_.jpg"  style="margin-left: 17px; height:307px; width: 307px;">
+                        <p style="font-size:16px; color:rgba(39, 170, 127, 0.747); margin-left:15px; margin-top: 20px;"><b>Shop now</b></p>
+                    </div>
+                </div>
+                <div class="mini-cols2" style="display: flex;justify-content: space-evenly; align-items: center; ">
+                    <div class="mini-cols21"style="background-color:white;">
+                        <p style="font-size:25px;margin-left:15px; margin-top: 15px; margin-bottom: 20px;"><b>Electronics</b></p>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg" style="margin-left: -1px; height:307px; width: 342px;">
+                        <p style="font-size:16px; color:rgba(39, 170, 127, 0.747); margin-left:15px; margin-top: 20px;"><b>See more</b></p>
+                    </div>
+                    <div class="mini-cols22"style="background-color:white;">
+                        <p style="font-size:25px;margin-left:15px; margin-top: 15px; margin-bottom: 20px;"><b>Easy Returns</b></p>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Returns_1x._SY304_CB432774714_.jpg"style="margin-left: 15px; height:309px; width: 309px;">
+                        <p style="font-size:16px; color:rgba(39, 170, 127, 0.747); margin-left:15px; margin-top: 20px;"><b>Learn more</b></p>
+                    </div>
+                    <div class="mini-cols23" style="background-color:white;">
+                        <p style="font-size:25px;margin-left:15px; margin-top: 15px; margin-bottom: 20px;"><b>Beauty Pics</b></p>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" style="margin-left: 15px; height:309px; width: 309px;">
+                        <p style="font-size:16px; color:rgba(39, 170, 127, 0.747); margin-left:15px; margin-top: 20px;"><b>Shop now</b></p>
+                    </div>
+                    <div class="mini-cols24"style="background-color:white;">
+                        <p style="font-size:25px;margin-left:15px; margin-top: 15px; margin-bottom: 20px;"><b>Shop Laptops & Tablets</b></p>
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Dashboard/Fuji_Dash_Laptops_379x304_1X_en_US._SY304_CB418608471_.jpg"style="margin-left: 15px; height:309px; width: 309px;">
+                        <p style="font-size:16px; color:rgba(39, 170, 127, 0.747); margin-left:15px; margin-top: 20px;"><b>See more</b></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col3">
+
+            </div>
+        </div>
+    </body>
+</html>
